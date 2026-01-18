@@ -1,0 +1,17 @@
+{
+  "name": "ralph-tui-playground",
+  "version": "0.1.0",
+  "description": "Projeto de teste para experimentar Ralph TUI + Beads",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "test": "bun test",
+    "lint": "biome check .",
+    "format": "biome format . --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "@types/bun": "latest"
+  }
+}
